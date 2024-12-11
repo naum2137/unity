@@ -21,7 +21,7 @@ public class GameOverUI : MonoBehaviour
     {
         if (gameOverCanvas != null)
         {
-            Debug.Log("Aktywujê Canvas Game Over!"); // Debugowanie
+            Debug.Log("Aktywujê Canvas Game Over!"); 
             gameOverCanvas.SetActive(true); // Aktywuj Canvas
             
         }
@@ -36,7 +36,7 @@ public class GameOverUI : MonoBehaviour
         var gameOverManager = FindObjectOfType<GameOverManager>();
         if (gameOverManager != null)
         {
-            gameOverManager.ResetGame(); // Nowa metoda resetu gry
+            gameOverManager.ResetGame(); 
         }
 
         // Ukryj GameOverCanvas
